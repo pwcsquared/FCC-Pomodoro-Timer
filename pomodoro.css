@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+body {
+  font-family: Oswald;
+  background-color: #6c8793;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.inputWrap {
+  width: 300px;
+  margin: 50px auto 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputContainer {
+  display: flex;
+}
+
+.inputContainer h1 {
+  font-size: 3.5em;
+  margin: 0;
+  padding: 0 5px;
+  text-align: center;
+}
+
+#breakMinutes, #pomMinutes {
+  width: 60px;
+}
+
+.btn {
+}
+
+.btn:hover {
+  color: #0af;
+}
+
+.btn:active {
+  color: #0077b3;
+}
+
+.name {
+  padding: 0;
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.canvasWrap {
+  margin: auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+canvas {
+  margin: auto;
+  cursor: pointer;
+}
+
+.timerWrap {
+  margin: auto;
+  width: 300px;
+  display: flex;
+}
+
+#timer {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 6em;
+  position: relative;
+  top: -225px;
+  z-index: -1;
+}
